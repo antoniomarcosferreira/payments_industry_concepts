@@ -35,3 +35,6 @@ between merchants, acquirers, and payment networks, without directly processing
 the transactions itself. The money flow and information flow vary slightly for
 each player, but the overall objective remains the same: to enable secure and
 efficient payment processing.
+
+___
+[Back](../README.md)

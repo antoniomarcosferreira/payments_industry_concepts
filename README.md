@@ -2,6 +2,8 @@
 
 This project will help you understand better how the payments industry works.
 
+![connection with fraud in the acquiring world](docs/resources/Bard_Generated_Image.jpeg)  
+
 ## Understand the flow of money and the flow of information in the acquiring market and the role of key players
 
 In the acquirer market, which is related to payment processing and acquiring
@@ -40,10 +42,8 @@ to the acquirer.
 
 ---
 
-
 # Now, let's understand the money flow and information flow in the acquirer market
-
-![connection with fraud in the acquiring world](docs/money_flow.jpeg)  
+ 
 
 ### Money Flow:
 
@@ -88,7 +88,7 @@ to the acquirer.
    cardholder.
 
 Overall, the acquirer plays a crucial role in facilitating the payment process
-between the cardholder, merchant, payment networks, and card issuers. They
+between the cardholder, merchant, payment networks, and card issuers. They help to
 ensure the smooth flow of funds and information to enable secure and efficient
 card transactions.
 
@@ -112,8 +112,7 @@ govern data security standards in the payment industry.
 ---
 
 ## See the difference between acquirer, sub-acquirer and payment gateway and how the flow explained in question 1 changes for these players
- 
-<img src="docs/diferences.jpeg" alt="diferences" style="width:200px;"/>
+  
 
 ## More about the diferences
 
@@ -132,7 +131,7 @@ and payment gateways, and how the flow changes for each player:
   - **Chargeback processing:** Handling disputes and refunds.
 - **Example:** Major banks like Bank of America or Chase.
 
-Read more about Acquirer's [money flow](docs/ACQUIRER.md).
+Read more about Acquirer's [money and information flow](docs/acquarer.md).
 
 **Sub-acquirer:**
 
@@ -145,7 +144,7 @@ Read more about Acquirer's [money flow](docs/ACQUIRER.md).
   on most of the financial risk.
 - **Example:** Payment processors like Stripe or PayPal.
 
-Read more about [money flow](docs/SUB-ACQUIRER.md) for the Sub Acquirer.
+Read more about [money and information flow](docs/sub_acquirer.md) for the Sub Acquirer.
 
 **Payment Gateway:**
 
@@ -156,7 +155,7 @@ Read more about [money flow](docs/SUB-ACQUIRER.md) for the Sub Acquirer.
 - It may also offer additional features like fraud prevention and tokenization.
 - **Example:** Payment service providers like Braintree or Adyen.
 
-Read more about [money flow](docs/PAYMENT_GETEWAY.md) for the  payment gateway.
+Read more about [money and information flow](docs/payment_gateway.md) for the  payment gateway.
 
 **Flow Changes:**
 
@@ -185,33 +184,47 @@ they impact the payment flow.
 
 ---
 
-![connection with fraud in the acquiring world](docs/sec_image1.jpeg)  
 
-## What chargebacks are, how they differ from cancellations and what is their connection with fraud in the acquiring world
 
-Chargebacks, cancellations, and fraud are all important concepts in the
-acquiring world. Let's define each term and explore their connections:
-
-Chargebacks: A chargeback is a reversal of a transaction initiated by the
-cardholder or the cardholder's bank. It allows the cardholder to dispute a
-transaction and request a refund from their bank. Chargebacks are typically used
+ 
+**Chargebacks:**
+ 
+A chargeback is a reversal of a transaction initiated by the
+cardholder or the cardholder's bank. 
+It allows the cardholder to dispute a
+transaction and request a refund from their bank. 
+Chargebacks are typically used
 as a consumer protection mechanism to address issues such as unauthorized
-transactions, defective goods, or non-delivery of goods or services. Process:
+transactions, defective goods, or non-delivery of goods or services. 
+
+*Process:*
+
 When a cardholder initiates a chargeback, the funds for the disputed transaction
 are temporarily debited from the merchant's account and returned to the
 cardholder. The merchant is typically required to provide evidence to dispute
 the chargeback, and the acquiring bank facilitates the resolution process
 between the merchant, the cardholder's bank, and the payment network.
-Cancellations: Cancellations refer to the act of voiding a transaction before it
+
+
+**Cancellations:**
+
+Cancellations refer to the act of voiding a transaction before it
 is fully processed or settled. Cancellations can occur for various reasons, such
 as when a customer changes their mind, the merchant cannot fulfill the order, or
-there is a technical issue during the transaction process. Process: When a
+there is a technical issue during the transaction process. 
+
+*Process:*
+
+ When a
 cancellation occurs, the transaction is typically voided before settlement, and
-no funds are transferred between the cardholder and the merchant. The
+no funds are transferred between the cardholder and the merchant. 
+The
 cancellation process is usually handled within the merchant's system or through
-the payment gateway. Difference between Chargebacks and Cancellations: The main
-difference between chargebacks and cancellations is the stage at which they
-occur in the transaction process:
+the payment gateway. 
+
+**Difference between Chargebacks and Cancellations:**
+
+> The main difference between chargebacks and cancellations is the stage at which they occur in the transaction process:
 
 Chargebacks occur after the transaction has been processed and settled, and the
 cardholder disputes the transaction with their bank. Chargebacks involve a
@@ -220,6 +233,7 @@ cardholder.
 
 Cancellations occur before the transaction is fully processed or settled,
 typically when the transaction is still in progress or has not yet been settled.
+
 Cancellations do not involve a dispute resolution process since no funds have
 been transferred.
 
@@ -231,12 +245,15 @@ aim of obtaining a refund while retaining the purchased goods or services.
 
 Fraudulent chargebacks can have significant financial implications for merchants
 and acquirers, as they may result in the loss of revenue, chargeback fees, and
-damage to the merchant's reputation. Merchants and acquirers employ various
+damage to the merchant's reputation. 
+
+Merchants and acquirers employ various
 measures, such as fraud detection systems and robust dispute resolution
 processes, to mitigate the impact of fraudulent chargebacks.
 
-It's important to note that not all chargebacks are fraudulent. Legitimate
-chargebacks serve as a vital consumer protection mechanism, allowing cardholders
+It's important to note that not all chargebacks are fraudulent. 
+
+Legitimate chargebacks serve as a vital consumer protection mechanism, allowing cardholders
 to seek refunds for unauthorized or problematic transactions. However, the
 connection between chargebacks and fraud highlights the importance of effective
 fraud prevention and dispute resolution practices in the acquiring world.
