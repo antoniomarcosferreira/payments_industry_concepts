@@ -42,3 +42,6 @@ Run server
 Use rubocop to auto-correct code style:
 
     rubocop --auto-correct-all --disable-uncorrectable
+
+---
+[Back](../README.md)
