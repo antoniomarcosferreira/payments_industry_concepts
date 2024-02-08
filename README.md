@@ -17,7 +17,9 @@ Here we can better understand the concepts and definitions of the authors in fin
 
 To use AI here, I first want to study the data more and do tests using the Python language, which is simpler to do the tests.
 
-So only after having a well-tested model, just use the same concept in Ruby on Rails and Rust. Because these languages ​​also have resources for ML.
+So only after having a well-tested model, just use the same concept in Ruby on Rails and Rust. Because these languages ​​also have resources for ML. 
+
+[Data Analytics Python](data_analytics_python/readme.md)
 
 ---
 
@@ -29,7 +31,7 @@ This ruby ​​implementation is not using AI at this moment.
 ## Python Implementation
 This Python project is where data studies are concentrated, and a Python API for testing.
 
-[Data Analytics](data_analytics_python/readme.md)
+[Fraud Detection Python](fraud_detection_python/readme.md)
 
 ## Rust Implementation
 After implementing AI in the python project, and FOR. I'm going to start this API in RUST.
