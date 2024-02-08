@@ -1,0 +1,10 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'vendor'
+    - 'vendor'
+    - 'storage'
+    - 'lib'
+    - 'log'
+    - 'bin'
+    - 'tmp'

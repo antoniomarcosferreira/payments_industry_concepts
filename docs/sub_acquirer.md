@@ -25,3 +25,6 @@ acquirer validates the transaction, communicates with the payment network, and
 relays the authorization response back to the sub-acquirer. The sub-acquirer
 receives the response and communicates it to the merchant, allowing them to
 proceed or decline the transaction.
+
+___
+[Back](../README.md)

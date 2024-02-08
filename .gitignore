@@ -1,0 +1,15 @@
+
+data_analytics_python/.ipynb_checkpoints
+data_analytics_python/notbook-env
+
+**/env
+**/.env
+**/__pycache__
+**/model.joblib
+
+fraud_detection_ror/tmp
+fraud_detection_ror/.env*
+fraud_detection_ror/storage/*
+fraud_detection_ror/.env
+fraud_detection_ror/log
+fraud_detection_ror/config/master.key

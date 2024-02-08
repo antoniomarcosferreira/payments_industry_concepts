@@ -25,3 +25,6 @@ network verifies the transaction details, communicates with the card issuer, and
 relays the authorization response back to the acquirer. The acquirer receives
 the response and communicates it to the merchant, allowing them to proceed or
 decline the transaction.
+
+___
+[Back](../README.md)
