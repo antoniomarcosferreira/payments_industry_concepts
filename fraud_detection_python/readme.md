@@ -29,3 +29,6 @@ This API must be the implementation of a trained model to identify anomalies and
 
 
 The API will be running at http://localhost:8000. You can test it with sample requests to the /approve endpoint.
+
+---
+[Back](../README.md)

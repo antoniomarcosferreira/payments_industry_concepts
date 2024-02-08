@@ -27,4 +27,4 @@ the response and communicates it to the merchant, allowing them to proceed or
 decline the transaction.
 
 ___
-[Back](../README.md)
+[Back](README.md)

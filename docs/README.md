@@ -257,3 +257,5 @@ Legitimate chargebacks serve as a vital consumer protection mechanism, allowing 
 to seek refunds for unauthorized or problematic transactions. However, the
 connection between chargebacks and fraud highlights the importance of effective
 fraud prevention and dispute resolution practices in the acquiring world.
+
+[Back](../README.md)
